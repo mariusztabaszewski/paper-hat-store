@@ -1,5 +1,8 @@
 This is a simple landing page for fictional store.
 
+You can see it here:
+http://mariusztabaszewski.github.io/paper-hat-store/
+
 I made it to practice my coding skills.
 
 I use HTML, CSS and and a little bit of JS.
