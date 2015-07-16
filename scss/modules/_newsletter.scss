@@ -8,12 +8,13 @@
 		width: 40%;
 	}
 	input[id="email"] {
-		height: 33px;
+		height: 34px;
 		padding: 0.4em 0.8em;
 		flex-grow: 1;
 		border: 2px solid lighten($black,40%);
 	}
 	input[type="button"] {
+		height: 34px;
 		padding: 0.4em 0.8em;
 		color: white;
 		text-transform: uppercase;

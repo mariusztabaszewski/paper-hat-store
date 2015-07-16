@@ -578,13 +578,14 @@ footer {
     .newsletter {
       width: 40%; } }
   .newsletter input[id="email"] {
-    height: 33px;
+    height: 34px;
     padding: 0.4em 0.8em;
     -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
     border: 2px solid #878787; }
   .newsletter input[type="button"] {
+    height: 34px;
     padding: 0.4em 0.8em;
     color: white;
     text-transform: uppercase;
