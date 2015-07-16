@@ -1,0 +1,15 @@
+mixin member(image,desc)
+	.member
+		figure
+			img(src=image)
+			figcaption=desc
+
+
+section#team
+	.content
+		h2 Our team
+		p This is our dream job. We love working together and learn a lot from each other. We love summer, adventures and good design.
+		.team-members
+			+member('images/man.jpg', 'Mark - Craft Maker')
+			+member('images/boy.jpg', 'Frank - Art Director')
+			+member('images/girl.jpg', 'Anna - Designer')

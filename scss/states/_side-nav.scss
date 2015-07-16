@@ -1,0 +1,9 @@
+.side-nav-items {
+	a:hover {
+		background: $black;
+	}
+	a:hover span {
+		visibility: visible;
+		opacity: 1;	
+	}
+}

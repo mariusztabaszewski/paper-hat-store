@@ -1,0 +1,7 @@
+.hat-gallery figure {
+	&:hover img {
+		@include bp(medium) {
+			transform: scale(1.05);
+		}
+	}
+}

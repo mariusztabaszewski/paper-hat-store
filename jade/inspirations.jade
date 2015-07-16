@@ -1,0 +1,17 @@
+mixin inspiration(image,desc)
+	.inspirations-item
+		figure
+			img(src=image)
+			figcaption=desc
+
+
+section#inspirations
+	.content
+		h2 Our inspirations
+		p We always try to find inspiration in everything. And if we can’t, just look again. We never go anywhere without a book, comic book or magazine. We also listen to a lot of music.
+		.inspirations-gallery
+			+inspiration('images/smile.jpg', 'beach boys albums')
+			+inspiration('images/book.jpg', 'children books')
+			+inspiration('images/comics.jpg', 'comics')
+			+inspiration('images/mag.jpg', 'surf mags')
+					

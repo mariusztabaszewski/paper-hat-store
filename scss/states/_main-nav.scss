@@ -1,0 +1,11 @@
+.nav-js {
+	visibility: visible;
+	z-index: 1;
+	opacity: 1;
+    transform: scale(1);
+}
+
+
+.main-nav-items li:hover {
+	transform: scale(1.2);
+}

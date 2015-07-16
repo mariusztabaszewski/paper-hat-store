@@ -1,0 +1,11 @@
+.menu.on-js {
+	.top {
+    	transform: rotate(45deg) translate(7px, 7px);
+  	}
+    .middle {
+     	opacity: 0;
+  	}
+    .bottom {
+    	transform: rotate(-45deg) translate(7.5px, -7.5px);
+  	}
+}

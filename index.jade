@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+	head
+		include jade/head.jade
+	body
+		include jade/logo.jade
+		include jade/menu.jade
+		include jade/side-nav.jade
+		include jade/main-nav.jade
+		include jade/header.jade
+		main
+			include jade/about.jade
+			include jade/collection.jade
+			include jade/inspirations.jade
+			include jade/team.jade
+			include jade/contact.jade
+		include jade/footer.jade
+
+		script(src="js/minified/script.min.js")

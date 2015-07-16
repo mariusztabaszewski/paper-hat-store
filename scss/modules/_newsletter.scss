@@ -1,0 +1,23 @@
+.newsletter {
+	width: 100%;
+	display: flex;
+	@include bp(small) {
+		width: 60%;
+	}
+	@include bp(large) {
+		width: 40%;
+	}
+	input[id="email"] {
+		height: 32px;
+		padding: 0.4em 0.8em;
+		flex-grow: 1;
+		border: 2px solid lighten($black,40%);
+	}
+	input[type="button"] {
+		padding: 0.4em 0.8em;
+		color: white;
+		text-transform: uppercase;
+		border: none;
+		background: lighten($black,40%);
+	}
+}
