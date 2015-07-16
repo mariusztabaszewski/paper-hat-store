@@ -578,7 +578,7 @@ footer {
     .newsletter {
       width: 40%; } }
   .newsletter input[id="email"] {
-    height: 32px;
+    height: 33px;
     padding: 0.4em 0.8em;
     -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
