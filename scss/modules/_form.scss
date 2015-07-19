@@ -4,10 +4,6 @@
 	@include bp(large) {
 		width: 80%;
 	}
-	label {
-		font-size: 0.8em;
-		text-transform: uppercase;
-	}
 	input, textarea {
 		width: 100%;
 		padding: 0.4em 0.8em;
@@ -19,9 +15,7 @@
 	}
 	.contact-submit input {
 		width: auto;
-		color: white;
 		background: lighten($black,40%);
 		border: none;
-		text-transform: uppercase;
 	}
 }

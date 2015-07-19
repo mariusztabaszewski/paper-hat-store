@@ -1,0 +1,30 @@
+.menu, .logo {
+	position: absolute;
+	z-index: 2;
+	@include bp(medium) {
+		position: fixed;
+	}
+}
+
+.menu {
+	right: 40px;
+	top: 40px;
+}
+
+.logo {
+	left: 40px;
+	top: 20px;
+}
+
+.side-nav {
+	display: none;
+	@include bp(medium) {
+		display: block;
+		position: fixed;
+		top: 200px;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 40px;
+		z-index: 1;
+	}
+}

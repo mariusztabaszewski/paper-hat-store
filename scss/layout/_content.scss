@@ -1,0 +1,10 @@
+.content {
+	width: 100%;
+	@include bp(medium) {
+		max-width: 660px;
+		margin: 0 auto
+	}
+	@include bp(large) {
+		max-width: 980px;
+	}
+}

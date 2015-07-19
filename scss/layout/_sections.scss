@@ -1,0 +1,25 @@
+section {
+	padding: 1.25em 0 2.5em 0;
+	text-align: center;
+	p {
+		padding: 0 0.8em;
+	}
+}
+
+#about, #inspirations, #contact {
+	background: lighten($blue,10%);	
+}
+
+#collection, #team {
+	background: lighten($yellow,10%);
+}
+
+#about .newsletter, #inspirations .inspirations-gallery {
+	padding: 0 0.8em;
+	margin: 0 auto;
+}
+
+#contact form {
+	padding: 0 0.8em;
+	margin: 3em auto;
+}
